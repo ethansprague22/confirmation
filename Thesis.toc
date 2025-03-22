@@ -1,0 +1,25 @@
+\contentsline {chapter}{Abstract}{i}{dummy.1}%
+
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}%
+\contentsline {section}{\numberline {1.1}Random}{1}{section.4}%
+\contentsline {chapter}{\numberline {2}Literature review}{2}{chapter.5}%
+\contentsline {section}{\numberline {2.1}Deformation modes}{2}{section.6}%
+\contentsline {subsection}{\numberline {2.1.1}Slip}{2}{subsection.8}%
+\contentsline {subsection}{\numberline {2.1.2}Twinning}{4}{subsection.9}%
+\contentsline {section}{\numberline {2.2}Texture development}{5}{section.11}%
+\contentsline {section}{\numberline {2.3}Polycrystal neighbourhood effects}{5}{section.12}%
+\contentsline {subsection}{\numberline {2.3.1}Slip transfer}{5}{subsection.13}%
+\contentsline {subsection}{\numberline {2.3.2}Strain networks}{5}{subsection.14}%
+\contentsline {section}{\numberline {2.4}Crystal plasticity modelling}{5}{section.15}%
+\contentsline {chapter}{\numberline {3}Research aims}{6}{chapter.16}%
+\contentsline {section}{\numberline {3.1}Aims}{6}{section.17}%
+\contentsline {section}{\numberline {3.2}Objectives}{6}{section.22}%
+\contentsline {chapter}{\numberline {4}Methodology}{8}{chapter.23}%
+\contentsline {section}{\numberline {4.1}Hot Isostatic Press (HIP)}{8}{section.24}%
+\contentsline {section}{\numberline {4.2}Microstructure characterisation}{8}{section.25}%
+\contentsline {section}{\numberline {4.3}Mechanical testing}{8}{section.26}%
+\contentsline {subsection}{\numberline {4.3.1}Standard tests}{8}{subsection.27}%
+\contentsline {subsection}{\numberline {4.3.2}In-situ tests (HR-DIC)}{8}{subsection.28}%
+\contentsline {section}{\numberline {4.4}Modelling}{8}{section.29}%
+\vspace {4em}
+\contentsline {chapter}{Bibliography}{9}{dummy.30}%
