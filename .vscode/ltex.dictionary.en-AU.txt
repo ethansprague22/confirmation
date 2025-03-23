@@ -1,3 +1,16 @@
 Von-Mises
 Schmid
 polycrystal
+Isostatic
+EBSD
+isostatic
+equiaxed
+transus
+polarisers
+Kikuchi
+Electropolishing
+extensometer
+Instron
+Bunge
+recrystallisation
+beta-transus

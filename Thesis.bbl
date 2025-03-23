@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -19,5 +19,21 @@ Nathalie Bozzolo, Lisa Chan, and Anthony~D Rollett.
 \newblock ISSN 0021-8898.
 \newblock \doi{10.1107/S0021889810008228}.
 \newblock Place: Oxford, England : Publisher: Blackwell Pub. on behalf of the International Union of Crystallography.
+
+\bibitem[Tong and Britton(2017)]{tongFormationVeryLarge2017}
+Vivian~S. Tong and T.~Ben Britton.
+\newblock Formation of very large ‘blocky alpha’ grains in {Zircaloy}-4.
+\newblock \emph{Acta Materialia}, 129:\penalty0 510--520, May 2017.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2017.03.002}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645417301817}.
+
+\bibitem[Nieto-Valeiras et~al.(2024)Nieto-Valeiras, Orozco-Caballero, Sarebanzadeh, Sun, and LLorca]{nieto-valeirasAnalysisSlipTransfer2024}
+E.~Nieto-Valeiras, A.~Orozco-Caballero, M.~Sarebanzadeh, J.~Sun, and J.~LLorca.
+\newblock Analysis of slip transfer across grain boundaries in {Ti} via diffraction contrast tomography and high-resolution digital image correlation: {When} the geometrical criteria are not sufficient.
+\newblock \emph{International Journal of Plasticity}, page 103941, March 2024.
+\newblock ISSN 0749-6419.
+\newblock \doi{10.1016/j.ijplas.2024.103941}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0749641924000688}.
 
 \end{thebibliography}

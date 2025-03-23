@@ -1,13 +1,88 @@
 \chapter{Methodology}
 
 \section{Hot Isostatic Press (HIP)}
+In order to produce random-texture HCP metal, commercially pure titanium powder was consolidated into a bulk solid using hot isostatic pressing.
+Three different powder stocks were available for this project, all grade 2 titanium but with different powder particle size distributions.
+These size distributions were listed as $15-53\mu\textnormal{m}$, $45-90\mu\textnormal{m}$, and $50-150\mu\textnormal{m}$.
+The powder was packed into a cylindrical stainless steel can, which had internal diameter of 50mm and internal height of 120mm.
+A bottom and a top cap were welded to the cylindrical casing, with the top tube including a small filling tube to allow insertion of the powder.
+The powder packing was done by hand using a funnel. Shaking and knocking the outside of the can to condense the powder resulted in a good packing density which was estimated to be ~70\% based on mass gain.
 
-\section{Microstructure characterisation}
+The can was evacuated through the filling tube at the top of the can over several hours to remove the gas between the powder particles.
+This filling tube was then crimped and the end of the tube was welded to ensure a complete seal.
+Once fully sealed, the can was placed inside the HIP chamber and the run was commenced with the following program.
+Importantly, the maximum temperature during this program was measured with a thermocouple to be 854$^\circ$C which is below the expected $\beta$-transus of CP-Ti which is approximately $920^\circ\textnormal{C}$.
+Staying below the beta transus is very important due to the vastly different grain boundary mobility between the alpha and beta phases.
+The BCC crystal structure of the beta phase allows for much faster grain growth, which would not be ideal for studying equiaxed polycrystalline behaviour.
+\pagebreak
+
+\textbf{HIP program:}
+\begin{enumerate}
+    \item Evacuate to 1 torr
+    \item Pump up to 100 Bar
+    \item Pump up to 1500 Bar \& ramp up to 850$^\circ$C over 170 minutes 
+    \item Dwell for 240 minutes
+    \item Vent to 100 Bar and ramp down to 100$^\circ$C over 150 minutes
+    \item Free cool to 75$^\circ$C
+    \item Vent to 20 Bar
+\end{enumerate}
+
+Because of the isostatic stress condition, it was hypothesised that no preferred crystallographic orientations would exist, and therefore no texture development would occur.
+The mechanisms that drive texture development during conventional processing are a response to the directionally dependent stress state, in which grains of certain orientations behave differently.
+During the HIP, the plasticity that powder particles experience is dependent on the local contact points of adjacent powder particles, which can be assumed to be random.
+These local stress conditions can also be assumed to be on average isostatic, meaning no orientation dependent phenomena should occur.
+
+The major limitations associated with HIPing are the cost, time and the inability to monitor the microstructure at intermediate stages.
+
+
+\section{Optical microscopy}
+Optical microscopy using polarised light was used for routine microstructure characterisation.
+Sample preparation involved grinding with silicon carbide paper (800, 1200, 2500 grit) followed by chemical-mechanical polishing using a mixture of 1 part \ce{H2O2}(30\%) with 4 parts OP-S using a Struers MD-Chem polishing cloth.
+During the OP-S polishing step, it is important to apply pressure so that the reaction products can be mechanically removed.
+
+The Olympus GX51 optical microscope was used for the majority of optical characterisation as it supports usage of polarising filters.
+The HCP material that this project deals with (CP-Ti and Zr alloys) have an interaction with polarised light that allows for crystallographic contrast.
+When these materials are viewed under cross polarisers, the intensity of reflected light depends on the orientation of the $\langle c \rangle$-axis with respect to the viewing axis.
+Therefore, when a polycrystal is observed, good contrast between the grains is achieved due to differences in their crystal orientation.
+
+This technique has limited quantitative effectiveness, it cannot determine the full crystal orientation (only the $\langle c \rangle$-axis tilt) and some other factors affect the intensity such as the surface morphology and the angle between cross polarisers.
+
+\section{Electron Backscatter Diffraction (EBSD)}
+Electron microscopy techniques can be used to acquire full quantitative information about the crystallographic orientations within samples.
+This project utilises the JEOL IT800 SEM equipped with an Oxford EBSD symmetry detector.
+EBSD is a very widespread technique among published literature as it offers high resolution imaging, phase mapping and grain identification.
+The procedure involves mounting a small sectioned and polished sample inside the SEM stage and tilting the stage by 70$^\circ$.
+The EBSD detector can then be calibrated for background corrections in order to receive a high quality signal of Kikuchi bands, which are used to identify material phases and calculate the orientation.
+Electropolishing is necessary to obtain pristine sample surface quality before EBSD analysis if high resolution imaging is required.
+For texture analysis, large area and low resolution imaging is sufficient.
+
+Some care must be taken regarding the conventions for describing HCP orientations.
+The oxford convention is to report the Euler angles by the Bunge convention (as passive rotations from the sample frame to the crystal frame) and defining the local X axis as being parallel to the crystal $\langle a \rangle$-axis.
+
+For general characterisation, optical microscopy is preferred due to its time and cost efficiency, however EBSD was used when quantitative crystallographic orientation data was needed.
 
 \section{Mechanical testing}
-\subsection{Standard tests}
+Cylindrical samples were machined with a gauge diameter of 3mm and gauge length of 15mm.
+Uniaxial tensile tests were conducted using screw-driven Instron testing machines with a  strain rate of 0.02mm/s.
+The 10kN load cell was used to maximise accuracy of the force transducer measurements, since the load on the sample was expected to reach 7kN which is outside the ideal range for the 100kN load cell.
+An extensometer was attached to the sample for accurate strain measurements.
 
-\subsection{In-situ tests (HR-DIC)}
+Circular samples are preferred because it is easier to obtain good alignment of the sample with the loading axis, which ensures accurate and reproducible data.
+Small sample geometry was chosen in order to maximise the number of samples that could be made from a single HIP can, since the HIP runs are costly.
 
+\section{Crystal plasticity modelling}
+The modelling strategy is to build a workflow that can be easily adapted to fit many materials problems of similar nature.
+The software packages that were chosen were selected to be ones that could be easily customised and compartmentalised.
+This basic workflow can be divided into three main stages: material, behaviour, solver.
 
-\section{Modelling}
+The simulated material that will be used for the crystal plasticity model, known as the representative volume element, is a virtual reconstruction of the polycrystalline microstructure that contains all the information about the material properties and crystallographic orientations.
+In our case, this can be stored as a set of \textit{.vtk} files that represent the material information as a volume of 3-dimensional elements known as voxels.
+The software package chosen for the generation and manipulation of these material files is Dream3D.
+Both synthetic material construction and experimentally informed reconstruction (using EBSD data) can be done with Dream3D.
+
+The material behaviour laws which describe the crystal plasticity behaviour explicitly can be created and compiled into machine language with the MFront library.
+Here the detailed interactions between different deformation modes and their hardening behaviours can be described and tweaked.
+
+Finally, the solver that was selected is AMITEX which is an open source project that specialises in fast fourier transform (FFT) based algorithms for solving materials modelling problems.
+AMITEX has straightforward documentation detailing how to import materials and behaviour files, and also how to control the loading conditions of the simulation.
+The advantage of AMITEX is its portability and customisability, as well as some unique advanced features such as composite voxels which allow for multiple behaviour laws to operate within a single material point, allowing smooth boundaries and complex interfaces to be handled properly which is one of the major struggles previously with FFT methods.
