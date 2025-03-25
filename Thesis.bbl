@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,56 @@ G.~Lütjering and J.C. Williams.
 \newblock ISBN 978-3-540-71398-2.
 \newblock URL \url{https://books.google.com.au/books?id=wBXsCAAAQBAJ}.
 
+\bibitem[Leyens et~al.(2003)Leyens, Peters, Kumpfert, and {ProQuest (Firm)}]{leyensTitaniumTitaniumAlloys2003}
+Christoph. Leyens, Manfred. Peters, J.~Kumpfert, and {ProQuest (Firm)}.
+\newblock \emph{Titanium and {Titanium} {Alloys} : {Fundamentals} and {Applications}.}
+\newblock John Wiley \& Sons, Incorporated, Hoboken, 1st ed. edition, 2003.
+\newblock ISBN 978-3-527-60520-0.
+
+\bibitem[{Committee B10}(1988)]{committeeb10DeformationMechanismsTexture1988}
+{Committee B10}.
+\newblock \emph{Deformation {Mechanisms}, {Texture}, and {Anisotropy} in {Zirconium} and {Zircaloy}}.
+\newblock ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959, 1988.
+\newblock ISBN 978-0-8031-0958-2.
+\newblock \doi{10.1520/STP966-EB}.
+
+\bibitem[Battaini(2017)]{battainiDeformationBehaviourTwinning2017}
+Michael Battaini.
+\newblock \emph{Deformation behaviour and twinning mechanisms of commercially pure titanium alloys}.
+\newblock PhD thesis, January 2017.
+\newblock URL \url{https://bridges.monash.edu/articles/thesis/Deformation_behaviour_and_twinning_mechanisms_of_commercially_pure_titanium_alloys/4534439}.
+
+\bibitem[Wang et~al.(2017)Wang, Zheng, Phukan, Kenesei, Park, Lind, Suter, and Bieler]{wangDirectMeasurementCritical2017}
+L.~Wang, Z.~Zheng, H.~Phukan, P.~Kenesei, J.-S. Park, J.~Lind, R.M. Suter, and T.R. Bieler.
+\newblock Direct measurement of critical resolved shear stress of prismatic and basal slip in polycrystalline {Ti} using high energy {X}-ray diffraction microscopy.
+\newblock \emph{Acta Materialia}, 132:\penalty0 598--610, June 2017.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2017.05.015}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645417303920}.
+
+\bibitem[Nervo et~al.(2016)Nervo, King, Fitzner, Ludwig, and Preuss]{nervoStudyDeformationTwinning2016}
+Laura Nervo, Andrew King, Arnas Fitzner, Wolfgang Ludwig, and Michael Preuss.
+\newblock A study of deformation twinning in a titanium alloy by {X}-ray diffraction contrast tomography.
+\newblock \emph{Acta Materialia}, 105:\penalty0 417--428, February 2016.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2015.12.032}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645415301385}.
+
+\bibitem[Christian and Mahajan(1995)]{christianDeformationTwinning1995}
+J.W. Christian and S.~Mahajan.
+\newblock \emph{Deformation twinning}, volume~39.
+\newblock January 1995.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/0079642594000077}.
+
+\bibitem[Lee et~al.(1988)Lee, Esling, and Bunge]{leeDevelopmentRollingTexture1988}
+H.~P. Lee, C.~Esling, and H.~J. Bunge.
+\newblock Development of the {Rolling} {Texture} in {Titanium}.
+\newblock \emph{Texture, Stress, and Microstructure}, 7\penalty0 (4):\penalty0 562818, January 1988.
+\newblock ISSN 1687-5397.
+\newblock \doi{10.1155/TSM.7.317}.
+\newblock URL \url{https://doi.org/10.1155/TSM.7.317}.
+\newblock Publisher: John Wiley \& Sons, Ltd.
+
 \bibitem[Bozzolo et~al.(2010)Bozzolo, Chan, and Rollett]{bozzoloMisorientationsInducedDeformation2010}
 Nathalie Bozzolo, Lisa Chan, and Anthony~D Rollett.
 \newblock Misorientations induced by deformation twinning in titanium.
@@ -19,6 +69,79 @@ Nathalie Bozzolo, Lisa Chan, and Anthony~D Rollett.
 \newblock ISSN 0021-8898.
 \newblock \doi{10.1107/S0021889810008228}.
 \newblock Place: Oxford, England : Publisher: Blackwell Pub. on behalf of the International Union of Crystallography.
+
+\bibitem[Zhong et~al.(2008)Zhong, Yin, and Nagai]{zhongRoleDeformationTwin2008}
+Yong Zhong, Fuxing Yin, and Kotobu Nagai.
+\newblock Role of deformation twin on texture evolution in cold-rolled commercial-purity {Ti}.
+\newblock \emph{Journal of Materials Research}, 23\penalty0 (11):\penalty0 2954--2966, 2008.
+\newblock ISSN 0884-2914.
+\newblock \doi{10.1557/JMR.2008.0354}.
+\newblock URL \url{https://www.cambridge.org/core/product/C0D2489CB70055CF310545D97A0B5AB0}.
+\newblock Edition: 2011/01/31 Publisher: Cambridge University Press.
+
+\bibitem[Guo et~al.(2021)Guo, Li, Yuan, Han, Zhang, Ali, Ren, and Yuan]{guoTextureDevelopmentMechanical2021}
+Wenbin Guo, Geping Li, Fusen Yuan, Fuzhou Han, Yingdong Zhang, Muhammad Ali, Jie Ren, and Gaihuan Yuan.
+\newblock Texture development and mechanical behavior of {Zircaloy}-4 alloy plates fabricated by cold rolling and annealing.
+\newblock \emph{Materials Science and Engineering: A}, 807:\penalty0 140846, March 2021.
+\newblock ISSN 0921-5093.
+\newblock \doi{10.1016/j.msea.2021.140846}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0921509321001155}.
+
+\bibitem[Chun et~al.(2005)Chun, Yu, Semiatin, and Hwang]{chunEffectDeformationTwinning2005}
+Y.B. Chun, S.H. Yu, S.L. Semiatin, and S.K. Hwang.
+\newblock Effect of deformation twinning on microstructure and texture evolution during cold rolling of {CP}-titanium.
+\newblock \emph{Materials Science and Engineering: A}, 398\penalty0 (1):\penalty0 209--219, May 2005.
+\newblock ISSN 0921-5093.
+\newblock \doi{10.1016/j.msea.2005.03.019}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0921509305002376}.
+
+\bibitem[Han and Crimp(2020)]{hanECCIAnalysisShear2020}
+Songyang Han and Martin~A. Crimp.
+\newblock {ECCI} analysis of shear accommodations at grain boundaries in commercially pure alpha titanium.
+\newblock \emph{International Journal of Plasticity}, 131:\penalty0 102731, August 2020.
+\newblock ISSN 0749-6419.
+\newblock \doi{10.1016/j.ijplas.2020.102731}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0749641919307685}.
+
+\bibitem[Cui et~al.(2014)Cui, Kacher, McMurtrey, Was, and Robertson]{cuiInfluenceIrradiationDamage2014}
+B.~Cui, J.~Kacher, M.~McMurtrey, G.~Was, and I.M. Robertson.
+\newblock Influence of irradiation damage on slip transfer across grain boundaries.
+\newblock \emph{Acta Materialia}, 65:\penalty0 150--160, February 2014.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2013.11.033}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645413008835}.
+
+\bibitem[Guo et~al.(2015)Guo, Collins, Tarleton, Hofmann, Tischler, Liu, Xu, Wilkinson, and Britton]{guoMeasurementsStressFields2015}
+Y.~Guo, D.M. Collins, E.~Tarleton, F.~Hofmann, J.~Tischler, W.~Liu, R.~Xu, A.J. Wilkinson, and T.B. Britton.
+\newblock Measurements of stress fields near a grain boundary: {Exploring} blocked arrays of dislocations in {3D}.
+\newblock \emph{Acta Materialia}, 96:\penalty0 229--236, September 2015.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2015.05.041}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645415003626}.
+
+\bibitem[Nieto-Valeiras et~al.(2024{\natexlab{a}})Nieto-Valeiras, Ganju, Chawla, and LLorca]{nieto-valeirasAssessmentSlipTransfer2024}
+Eugenia Nieto-Valeiras, Eshan Ganju, Nikhilesh Chawla, and Javier LLorca.
+\newblock Assessment of slip transfer criteria for prismatic-to-prismatic slip in pure {Ti} from {3D} grain boundary data.
+\newblock \emph{Acta Materialia}, 262:\penalty0 119424, January 2024{\natexlab{a}}.
+\newblock ISSN 1359-6454.
+\newblock \doi{10.1016/j.actamat.2023.119424}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645423007541}.
+
+\bibitem[Abdolvand et~al.(2018)Abdolvand, Wright, and Wilkinson]{abdolvandStrongGrainNeighbour2018}
+Hamidreza Abdolvand, Jonathan Wright, and Angus~J. Wilkinson.
+\newblock Strong grain neighbour effects in polycrystals.
+\newblock \emph{Nature Communications}, 9\penalty0 (1):\penalty0 171, January 2018.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-017-02213-9}.
+\newblock URL \url{https://doi.org/10.1038/s41467-017-02213-9}.
+
+\bibitem[Helfer et~al.(2015)Helfer, Michel, Proix, Salvo, Sercombe, and Casella]{helferIntroducingOpensourceMfront2015}
+Thomas Helfer, Bruno Michel, Jean-Michel Proix, Maxime Salvo, Jérôme Sercombe, and Michel Casella.
+\newblock Introducing the open-source mfront code generator: {Application} to mechanical behaviours and material knowledge management within the {PLEIADES} fuel element modelling platform.
+\newblock \emph{Computers \& Mathematics with Applications}, 70\penalty0 (5):\penalty0 994--1023, September 2015.
+\newblock ISSN 0898-1221.
+\newblock \doi{10.1016/j.camwa.2015.06.027}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0898122115003132}.
 
 \bibitem[Tong and Britton(2017)]{tongFormationVeryLarge2017}
 Vivian~S. Tong and T.~Ben Britton.
@@ -28,10 +151,10 @@ Vivian~S. Tong and T.~Ben Britton.
 \newblock \doi{10.1016/j.actamat.2017.03.002}.
 \newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1359645417301817}.
 
-\bibitem[Nieto-Valeiras et~al.(2024)Nieto-Valeiras, Orozco-Caballero, Sarebanzadeh, Sun, and LLorca]{nieto-valeirasAnalysisSlipTransfer2024}
+\bibitem[Nieto-Valeiras et~al.(2024{\natexlab{b}})Nieto-Valeiras, Orozco-Caballero, Sarebanzadeh, Sun, and LLorca]{nieto-valeirasAnalysisSlipTransfer2024}
 E.~Nieto-Valeiras, A.~Orozco-Caballero, M.~Sarebanzadeh, J.~Sun, and J.~LLorca.
 \newblock Analysis of slip transfer across grain boundaries in {Ti} via diffraction contrast tomography and high-resolution digital image correlation: {When} the geometrical criteria are not sufficient.
-\newblock \emph{International Journal of Plasticity}, page 103941, March 2024.
+\newblock \emph{International Journal of Plasticity}, page 103941, March 2024{\natexlab{b}}.
 \newblock ISSN 0749-6419.
 \newblock \doi{10.1016/j.ijplas.2024.103941}.
 \newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0749641924000688}.

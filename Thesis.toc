@@ -6,31 +6,24 @@
 \contentsline {subsection}{\numberline {2.1.1}Slip}{3}{subsection.7}%
 \contentsline {subsection}{\numberline {2.1.2}Twinning}{5}{subsection.8}%
 \contentsline {section}{\numberline {2.2}Texture development}{6}{section.10}%
-\contentsline {section}{\numberline {2.3}Polycrystal neighbourhood effects}{6}{section.12}%
-\contentsline {subsection}{\numberline {2.3.1}Slip transfer}{6}{subsection.13}%
-\contentsline {subsection}{\numberline {2.3.2}Strain networks}{6}{subsection.14}%
-\contentsline {section}{\numberline {2.4}Crystal plasticity modelling}{6}{section.15}%
-\contentsline {chapter}{\numberline {3}Research aims}{8}{chapter.16}%
-\contentsline {section}{\numberline {3.1}Aims}{8}{section.17}%
-\contentsline {section}{\numberline {3.2}Objectives}{8}{section.22}%
-\contentsline {chapter}{\numberline {4}Methodology}{10}{chapter.23}%
-\contentsline {section}{\numberline {4.1}Hot Isostatic Press (HIP)}{10}{section.24}%
-\contentsline {section}{\numberline {4.2}Optical microscopy}{11}{section.32}%
-\contentsline {section}{\numberline {4.3}Electron Backscatter Diffraction (EBSD)}{12}{section.33}%
-\contentsline {section}{\numberline {4.4}Mechanical testing}{12}{section.34}%
-\contentsline {section}{\numberline {4.5}Crystal plasticity modelling}{13}{section.35}%
-\contentsline {chapter}{\numberline {5}Research completed to date}{14}{chapter.36}%
-\contentsline {section}{\numberline {5.1}CP-Ti plate}{14}{section.37}%
-\contentsline {section}{\numberline {5.2}HIP \#1: Abnormal grain growth}{17}{section.41}%
-\contentsline {section}{\numberline {5.3}HIP \#2: Success}{18}{section.43}%
-\contentsline {subsection}{\numberline {5.3.1}Geometric compatibility}{20}{subsection.45}%
-\contentsline {chapter}{\numberline {6}Proposed research}{22}{chapter.47}%
-\contentsline {section}{\numberline {6.1}Mechanical testing of HIPed material}{22}{section.48}%
-\contentsline {section}{\numberline {6.2}HR-DIC in-situ testing}{22}{section.49}%
-\contentsline {section}{\numberline {6.3}Rolling HIPed material}{22}{section.50}%
-\contentsline {section}{\numberline {6.4}Crystal plasticity modelling}{23}{section.51}%
-\contentsline {section}{\numberline {6.5}Irradiation}{23}{section.52}%
-\contentsline {section}{\numberline {6.6}X-ray / neutron diffraction in-situ loading}{23}{section.53}%
-\contentsline {chapter}{\numberline {7}Research communication}{24}{chapter.54}%
+\contentsline {section}{\numberline {2.3}Slip transfer}{6}{section.12}%
+\contentsline {chapter}{\numberline {3}Research aims}{9}{chapter.14}%
+\contentsline {chapter}{\numberline {4}Methodology}{11}{chapter.19}%
+\contentsline {section}{\numberline {4.1}Hot Isostatic Press (HIP)}{11}{section.20}%
+\contentsline {section}{\numberline {4.2}Optical microscopy}{12}{section.28}%
+\contentsline {section}{\numberline {4.3}Electron Backscatter Diffraction (EBSD)}{13}{section.29}%
+\contentsline {section}{\numberline {4.4}Mechanical testing}{13}{section.30}%
+\contentsline {section}{\numberline {4.5}Crystal plasticity modelling}{14}{section.31}%
+\contentsline {chapter}{\numberline {5}Research completed to date}{15}{chapter.32}%
+\contentsline {section}{\numberline {5.1}CP-Ti plate}{15}{section.33}%
+\contentsline {section}{\numberline {5.2}HIP \#1: Abnormal grain growth}{18}{section.37}%
+\contentsline {section}{\numberline {5.3}HIP \#2: Success}{19}{section.39}%
+\contentsline {subsection}{\numberline {5.3.1}Geometric compatibility}{21}{subsection.41}%
+\contentsline {chapter}{\numberline {6}Proposed research}{23}{chapter.43}%
+\contentsline {section}{\numberline {6.1}Mechanical testing of HIPed material}{23}{section.44}%
+\contentsline {section}{\numberline {6.2}HR-DIC in-situ testing}{23}{section.45}%
+\contentsline {section}{\numberline {6.3}Rolling HIPed material}{23}{section.46}%
+\contentsline {section}{\numberline {6.4}Crystal plasticity modelling}{24}{section.47}%
+\contentsline {chapter}{\numberline {7}Research communication}{25}{chapter.48}%
 \vspace {4em}
-\contentsline {chapter}{Bibliography}{25}{dummy.55}%
+\contentsline {chapter}{Bibliography}{26}{dummy.49}%
